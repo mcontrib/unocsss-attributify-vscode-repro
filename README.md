@@ -18,13 +18,7 @@ This repo demonstrates an issue where the **UnoCSS VSCode extension doesn't disp
 
 3. Open `src/pages/index.astro`
 
-4. ⚠️ Observe that `@apply` class decorations are **missing**:
-
-    ```css
-    a {
-      @apply border-b border-b-gray-300 hover:border-b-gray-600 transition;
-    }
-    ```
+4. ⚠️ Observe that CSS decorations are **missing**.
 
 ## 🔍 Workaround
 
